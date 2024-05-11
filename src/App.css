@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.description {
+  color: #bbbbbb;
+  line-height: 1.8;
+  font-size: 25px;
+  width: 700px;
+}
+
+.wrapper {
+  background: -webkit-linear-gradient(#4ef0ad, #ec8eeb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+
+.title
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

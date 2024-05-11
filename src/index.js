@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <img src='https://res.cloudinary.com/dvmumi2mb/image/upload/v1715380055/gradient-625d94e6_mmmzd1.webp' className='img'></img>
     <App />
   </React.StrictMode>
 );

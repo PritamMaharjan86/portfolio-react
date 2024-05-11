@@ -5,13 +5,13 @@ export default function Navigation() {
 
     return (
         <>
-            <div className='navigation'>
-
-                <ul>
-                    <li activeClassName="navbar-link-item">Home</li>
-                    <li activeClassName="navbar-link-item">Contact</li>
-                    <li activeClassName="navbar-link-item">About </li>
-                </ul>
+        <div class="nav-holder">
+            <div class="nav-top">
+                <span class="nav">Home</span>
+                <span class="nav">About</span>
+                <span class="nav">Work</span>
+                <span class="nav">Writings</span>
+            </div>
             </div>
 
         </>

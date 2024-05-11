@@ -10,7 +10,6 @@ export default function Navigation() {
                 <span class="nav">Home</span>
                 <span class="nav">About</span>
                 <span class="nav">Work</span>
-                <span class="nav">Writings</span>
             </div>
             </div>
 

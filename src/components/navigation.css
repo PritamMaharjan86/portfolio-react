@@ -1,35 +1,23 @@
-.nav-top {
-  margin: 25px;
-}
-
 .nav-holder {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: fixed;
+
 }
 
 .nav-top {
   display: flex;
   align-items: center;
-  border-radius: 30px;
-  transition: all 0.2s ease;
-  position: relative;
+
 }
 
 .nav-top .nav {
   color: #bbbbbb;
-
 }
 
 .nav {
-  display: flex;
-  align-items: center;
-  border-radius: 30px;
-  border: 1px solid transparent;
-  transition: all 0.2s ease;
-  position: relative;
   cursor: pointer;
   transition: all 0.2s ease;
   font-size: 17px;
@@ -37,11 +25,18 @@
   padding: 18px 30px;
   margin: 0 5px;
   font-weight: 300;
- 
 }
 
-.nav:hover
-{
-    color: white;
-    font-weight: 500;
+.nav:hover {
+  color: white;
+  font-weight: 500;
 }
+
+section {
+  display: grid;
+  place-items: normal;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+}
+

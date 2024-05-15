@@ -48,9 +48,10 @@
 
 .wrapper {
   background: -webkit-linear-gradient(#4ef0ad, #ec8eeb);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
+  padding-top: 50px;
 }
 
 .title

@@ -1,3 +1,7 @@
+:root{
+  --text:#bbbbbb;
+}
+
 .App {
   text-align: center;
   
@@ -51,7 +55,7 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
-  padding-top: 50px;
+  margin-top: 100px;
 }
 
 .title
@@ -61,4 +65,30 @@
   align-items: center;
   text-align: center;
   
+}
+
+.about-me
+{
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  
+
+}
+
+.about-container
+{
+  margin-top: 100px;
+  text-align: left;
+  margin:50px;
+  font-weight: 300;
+}
+
+.skill
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 20px;
 }

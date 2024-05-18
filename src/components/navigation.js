@@ -8,13 +8,13 @@ export default function Navigation() {
         <>
             <div class="nav-holder">
                 <div class="nav-top">
-                    <Link className='nav' activeClass="active" smooth spy to="home">
+                    <Link className='nav' activeStyle={{ color: '#5754a8', fontSize: '30px', fontWeight: '1000', transition:'all .2s ease' }} smooth spy to="home">
                         Home
                     </Link>
-                    <Link className='nav' activeClass="active" smooth spy to="about">
+                    <Link className='nav' activeStyle={{ color: '#5754a8', fontSize: '30px', fontWeight: '1000', transition:'all .2s ease'  }} smooth spy to="about">
                         About
                     </Link>
-                    <Link className='nav' activeClass="active" smooth spy to="work">
+                    <Link className='nav' activeStyle={{ color: '#5754a8', fontSize: '30px', fontWeight: '1000', transition:'all .2s ease'  }} smooth spy to="work">
                         Work
                     </Link>
                 </div>

@@ -7,6 +7,7 @@ import DocumentScannerOutlinedIcon from '@mui/icons-material/DocumentScannerOutl
 import { useState, useEffect } from 'react';
 import Loader from './components/loader';
 import Box from '@mui/material/Box';
+import { ThemeProvider } from '@mui/material';
 
 
 function App() {
@@ -111,7 +112,34 @@ function App() {
       </div>
       </section>
 
-      <section id="work">Work</section>
+      <section id="work">
+      <ThemeProvider
+      theme={{
+        palette: {
+          primary: {
+            main: '#007FFF',
+            dark: 'grey',
+          },
+        },
+      }}
+    >
+      <Box
+        sx={{
+          width: 600,
+          height: 300,
+          borderRadius: 1,
+          bgcolor: '#1c1c1c',
+          opacity: 0.3,
+          marginTop:'100px',
+          marginLeft:'50px',
+          boxShadow:'0 2px 3px #0000003d',
+          '&:hover': {
+            bgcolor: 'white',
+          },
+        }}
+      />
+    </ThemeProvider>
+      </section>
 
     </div>
 

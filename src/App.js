@@ -118,7 +118,7 @@ function App() {
         palette: {
           primary: {
             main: '#007FFF',
-            dark: '#0066CC',
+            dark: 'grey',
           },
         },
       }}
@@ -134,7 +134,7 @@ function App() {
           marginLeft:'50px',
           boxShadow:'0 2px 3px #0000003d',
           '&:hover': {
-            bgcolor: 'primary.dark',
+            bgcolor: 'white',
           },
         }}
       />

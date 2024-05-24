@@ -84,29 +84,41 @@ function App() {
           Let's connect and level up together in the world of digital innovation! Let's connect and level up together in the world of digital innovation!</span>
         <h6 style={{ color: 'white' }}>Skills</h6>
         <div className='skill'>
-        <Box component="section" sx={{ p: 1, border: '1px dashed #c86ac7', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           HTML
         </Box>
-        <Box component="section" sx={{ p: 1, border: '1px dashed #2ed681', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           CSS
         </Box>
-        <Box component="section" sx={{ p: 1, border: '1px dashed  #c86ac7', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           JavaScript
         </Box>
-        <Box component="section" sx={{ p: 1, border: '1px dashed #2ed681', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           MYSQL
         </Box>
-        <Box component="section" sx={{ p: 1, border: '1px dashed  #c86ac7', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           React
         </Box>
-        <Box component="section" sx={{ p: 1, border: '1px dashed #2ed681', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           Github
         </Box>
-        <Box component="section" sx={{ p: 1, border: '1px dashed  #c86ac7', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           Material-UI
         </Box>
-        <Box component="section" sx={{ p: 1, border: '1px dashed #2ed681', height:'20px' , width:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
           Postman
+        </Box>
+        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+          Node
+        </Box>
+        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+          Bitbucket
+        </Box>
+        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+          Umbraco
+        </Box>
+        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
+          Wordpress
         </Box>
         </div>
       </div>

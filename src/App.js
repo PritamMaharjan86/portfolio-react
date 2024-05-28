@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import Loader from './components/loader';
 import Box from '@mui/material/Box';
 import { ThemeProvider } from '@mui/material';
+import { TypeAnimation } from 'react-type-animation';
 
 
 function App() {
@@ -67,10 +68,26 @@ function App() {
         <div className='title'>
           <Navigation />
           <h1 className='wrapper'>
-            <span > Hello. I'm Pritam</span><br></br>
-            <span> A Web Developer</span>
+
+            <TypeAnimation
+              sequence={[
+                'Hello !!!', 
+                2000, 
+                'I am Pritam', 
+                2000, 
+                'A Web Developer', 
+                2000,
+                () => {
+                  console.log('Animation completed');
+                },
+              ]}
+              wrapper="span"
+              cursor={true}
+              repeat={Infinity}
+              style={{ fontSize: '2em', display: 'inline-block' }}
+            />
           </h1>
-          <p className='description'> I am passionate about creating experiences that are easy to use, accessible, and that meet the user's needs.</p>
+          <p className='description'> Web Developer skilled in HTML, CSS, JavaScript, and modern frameworks. Experienced in creating responsive websites and web applications with clean, efficient code.</p>
           <Button onClick={handleDownload} style={{ background: 'linear-gradient(36deg, rgba(153,245,198,0.8183648459383753) 0%, rgba(247,173,246,0.6895133053221288) 99%)', border: '1px solid #bbbbbb', color: 'black', fontSize: '13px' }} variant="outlined" startIcon={<DocumentScannerOutlinedIcon />} >
             Resume
           </Button>
@@ -79,78 +96,77 @@ function App() {
       </section>
 
       <section id="about"><div className='about-container'>
-        <span className='about-me'>I am a Game Programmer with a Bachelor's degree in Game Programming from Academy of Information Technology,
-          passionate about creating immersive and interactive digital experiences. My goal is to pursue exciting opportunities in Game Development or Web Development, where I can apply my skills and knowledge in multiple programming languages, game design principles, and web technologies. In my most recent role as a Dotnet Developer at Cypha Interactive, I contributed to the development of a web-based game platform using C#, ASP.NET, and SQL. I worked with a team of developers and designers to deliver high-quality code, implement game features and logic, and debug and test the platform. Previously, I was a Game Developer at PIEX Education, where I developed educational games using C# and Unity, and integrated them with a learning management system. I also completed a certification in Agile Principles and Methodologies, and learned the basics of Machine Learning and Testing Approaches. I am a lifelong learner who thrives on solving complex problems and collaborating with creative teams.
+        <span className='about-me'>Passionate Web Developer with expertise in front-end and back-end technologies. Skilled in creating responsive, user-friendly websites and web applications using HTML, CSS, JavaScript, and modern frameworks like React and Angular. Proficient in server-side languages such as Node.js and Python, with experience in database management and cloud services. Committed to writing clean, efficient code and staying updated with the latest industry trends to deliver top-notch digital solutions.
           Let's connect and level up together in the world of digital innovation! Let's connect and level up together in the world of digital innovation!</span>
         <h6 style={{ color: 'white' }}>Skills</h6>
         <div className='skill'>
-        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          HTML
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          CSS
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          JavaScript
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          MYSQL
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          React
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Github
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Material-UI
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Postman
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Node
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Bitbucket
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Umbraco
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Wordpress
-        </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            HTML
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            CSS
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            JavaScript
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            MYSQL
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            React
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Github
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Material-UI
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Postman
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Node
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Bitbucket
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Umbraco
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Wordpress
+          </Box>
         </div>
       </div>
       </section>
 
       <section id="work">
-      <ThemeProvider
-      theme={{
-        palette: {
-          primary: {
-            main: '#007FFF',
-            dark: 'grey',
-          },
-        },
-      }}
-    >
-      <Box
-        sx={{
-          width: 600,
-          height: 300,
-          borderRadius: 1,
-          bgcolor: '#1c1c1c',
-          opacity: 0.3,
-          marginTop:'100px',
-          marginLeft:'50px',
-          boxShadow:'0 2px 3px #0000003d',
-          '&:hover': {
-            bgcolor: 'white',
-          },
-        }}
-      />
-    </ThemeProvider>
+        <ThemeProvider
+          theme={{
+            palette: {
+              primary: {
+                main: '#007FFF',
+                dark: 'grey',
+              },
+            },
+          }}
+        >
+          <Box
+            sx={{
+              width: 600,
+              height: 300,
+              borderRadius: 1,
+              bgcolor: '#1c1c1c',
+              opacity: 0.3,
+              marginTop: '100px',
+              marginLeft: '50px',
+              boxShadow: '0 2px 3px #0000003d',
+              '&:hover': {
+                bgcolor: 'white',
+              },
+            }}
+          />
+        </ThemeProvider>
       </section>
 
     </div>

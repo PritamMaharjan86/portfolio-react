@@ -45,7 +45,7 @@
   color: #bbbbbb;
   line-height: 1.8;
   font-size: 25px;
-  width: 700px;
+  width: 1200px;
 }
 
 .wrapper {
@@ -79,7 +79,7 @@
 .about-container
 {
   margin-top: 100px;
-  text-align: left;
+  text-align: center;
   margin-left: 50px;
   margin-right: 50px;
   font-weight: 300;
@@ -90,4 +90,5 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
+
 }

@@ -8,6 +8,7 @@ import { useState, useEffect } from 'react';
 import Loader from './components/loader';
 import Box from '@mui/material/Box';
 import { ThemeProvider } from '@mui/material';
+import { TypeAnimation } from 'react-type-animation';
 
 
 function App() {
@@ -67,8 +68,24 @@ function App() {
         <div className='title'>
           <Navigation />
           <h1 className='wrapper'>
-            <span > Hello. I'm Pritam</span><br></br>
-            <span> A Web Developer</span>
+
+            <TypeAnimation
+              sequence={[
+                'Hello', 
+                2000, 
+                'I am Pritam', 
+                2000, 
+                'A Web Developer', 
+                2000,
+                () => {
+                  console.log('Sequence completed');
+                },
+              ]}
+              wrapper="span"
+              cursor={true}
+              repeat={Infinity}
+              style={{ fontSize: '2em', display: 'inline-block' }}
+            />
           </h1>
           <p className='description'> I am passionate about creating experiences that are easy to use, accessible, and that meet the user's needs.</p>
           <Button onClick={handleDownload} style={{ background: 'linear-gradient(36deg, rgba(153,245,198,0.8183648459383753) 0%, rgba(247,173,246,0.6895133053221288) 99%)', border: '1px solid #bbbbbb', color: 'black', fontSize: '13px' }} variant="outlined" startIcon={<DocumentScannerOutlinedIcon />} >
@@ -84,73 +101,73 @@ function App() {
           Let's connect and level up together in the world of digital innovation! Let's connect and level up together in the world of digital innovation!</span>
         <h6 style={{ color: 'white' }}>Skills</h6>
         <div className='skill'>
-        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          HTML
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          CSS
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          JavaScript
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          MYSQL
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          React
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Github
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Material-UI
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Postman
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Node
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Bitbucket
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Umbraco
-        </Box>
-        <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height:'20px' , minWidth:'100px', color:'white', fontSize:'18px', textAlign:'center', fontWeight:'300'}}>
-          Wordpress
-        </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            HTML
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            CSS
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            JavaScript
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            MYSQL
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            React
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Github
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid  #c86ac7', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Material-UI
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Postman
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Node
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Bitbucket
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #c86ac7', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Umbraco
+          </Box>
+          <Box component="section" sx={{ p: 1, border: '1px solid #2ed681', height: '20px', minWidth: '100px', color: 'white', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
+            Wordpress
+          </Box>
         </div>
       </div>
       </section>
 
       <section id="work">
-      <ThemeProvider
-      theme={{
-        palette: {
-          primary: {
-            main: '#007FFF',
-            dark: 'grey',
-          },
-        },
-      }}
-    >
-      <Box
-        sx={{
-          width: 600,
-          height: 300,
-          borderRadius: 1,
-          bgcolor: '#1c1c1c',
-          opacity: 0.3,
-          marginTop:'100px',
-          marginLeft:'50px',
-          boxShadow:'0 2px 3px #0000003d',
-          '&:hover': {
-            bgcolor: 'white',
-          },
-        }}
-      />
-    </ThemeProvider>
+        <ThemeProvider
+          theme={{
+            palette: {
+              primary: {
+                main: '#007FFF',
+                dark: 'grey',
+              },
+            },
+          }}
+        >
+          <Box
+            sx={{
+              width: 600,
+              height: 300,
+              borderRadius: 1,
+              bgcolor: '#1c1c1c',
+              opacity: 0.3,
+              marginTop: '100px',
+              marginLeft: '50px',
+              boxShadow: '0 2px 3px #0000003d',
+              '&:hover': {
+                bgcolor: 'white',
+              },
+            }}
+          />
+        </ThemeProvider>
       </section>
 
     </div>

@@ -71,11 +71,11 @@ function App() {
 
             <TypeAnimation
               sequence={[
-                'Hello !!!', 
-                2000, 
-                'I am Pritam', 
-                2000, 
-                'A Web Developer', 
+                'Hello !!!',
+                2000,
+                'I am Pritam',
+                2000,
+                'A Web Developer',
                 2000,
                 () => {
                   console.log('Animation completed');
@@ -98,7 +98,7 @@ function App() {
       <section id="about"><div className='about-container'>
         <span className='about-me'>Passionate Web Developer with expertise in front-end and back-end technologies. Skilled in creating responsive, user-friendly websites and web applications using HTML, CSS, JavaScript, and modern frameworks like React and Angular. Proficient in server-side languages such as Node.js and Python, with experience in database management and cloud services. Committed to writing clean, efficient code and staying updated with the latest industry trends to deliver top-notch digital solutions.
           Let's connect and level up together in the world of digital innovation! Let's connect and level up together in the world of digital innovation!</span>
-        <h6 style={{ color: 'white' }}>Skills</h6>
+        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'left' }}>Skills</h6>
         <div className='skill'>
           <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
             HTML
@@ -137,6 +137,8 @@ function App() {
             Wordpress
           </Box>
         </div>
+        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'left' }}>Experience</h6>
+        <div className='experience'>Experience</div>
       </div>
       </section>
 

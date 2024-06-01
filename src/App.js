@@ -15,6 +15,11 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import TimelineOppositeContent, {
+  timelineOppositeContentClasses,
+} from '@mui/lab/TimelineOppositeContent';
+import Typography from '@mui/material/Typography';
+
 
 
 function App() {
@@ -143,38 +148,56 @@ function App() {
             Wordpress
           </Box>
         </div>
-        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'left' }}>Experience</h6>
+        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'center' }}>Experience</h6>
         <div className='experience'>
-        <Timeline
-      sx={{
-        [`& .${timelineItemClasses.root}:before`]: {
-          flex: 0,
-          padding: 0,
-        },
-      }}
-    >
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent style={{color:'white'}}>Junior Software Engineer</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-        </TimelineSeparator>
-        <TimelineContent style={{color:'white'}}>3D Game Developer</TimelineContent>
-      </TimelineItem>
-      <TimelineItem>
-        <TimelineSeparator>
-          <TimelineDot />
-        </TimelineSeparator>
-        <TimelineContent style={{color:'white'}}>3D Game Developer</TimelineContent>
-      </TimelineItem>
-      
-    </Timeline></div>
-        
+          <Timeline
+            sx={{
+              [`& .${timelineItemClasses.root}:before`]: {
+                flex: 0,
+                padding: 0,
+              },
+            }}
+          >
+            <TimelineItem>
+              <TimelineOppositeContent
+                sx={{ }}
+                align="right"
+                color="white"
+              >
+                Cypha Interactive
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent style={{ color: 'white' }}><Typography variant='h6' component="span">Junior .Net Developer
+              </Typography>
+                <Typography>Because you need strength</Typography></TimelineContent>
+            </TimelineItem>
+
+            <TimelineItem>
+              <TimelineOppositeContent color="white" >
+                Global Odds Holding
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot />
+                <TimelineConnector />
+              </TimelineSeparator>
+              <TimelineContent style={{ color: 'white' }}>Junior Software Developer</TimelineContent>
+            </TimelineItem>
+
+            <TimelineItem>
+              <TimelineOppositeContent color="white" >
+                Piex Education
+              </TimelineOppositeContent>
+              <TimelineSeparator>
+                <TimelineDot />
+              </TimelineSeparator>
+              <TimelineContent style={{ color: 'white' }}>3D Game Developer</TimelineContent>
+            </TimelineItem>
+
+          </Timeline></div>
+
       </div>
       </section>
 

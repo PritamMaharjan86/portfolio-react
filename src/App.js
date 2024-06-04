@@ -148,55 +148,81 @@ function App() {
             Wordpress
           </Box>
         </div>
-        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'center' }}>Experience</h6>
+        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'left' }}>Experience</h6>
         <div className='experience'>
           <Timeline
             sx={{
-              [`& .${timelineItemClasses.root}:before`]: {
-                flex: 0,
-                padding: 0,
+              [`& .${timelineOppositeContentClasses.root}`]: {
+                flex: 0.2,
               },
             }}
           >
             <TimelineItem>
               <TimelineOppositeContent
-                sx={{ }}
+                sx={{}}
                 align="right"
                 color="white"
+                variant='h6'
+                marginBottom='40px'
               >
-                Cypha Interactive
+                <Typography variant='h6' component="span">Cypha Interactive
+                </Typography>
+                <Typography style={{ marginBottom: '30px' }}> November 2023</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
-                <TimelineDot />
+                <TimelineDot variant="outlined" color='info' />
                 <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent style={{ color: 'white' }}><Typography variant='h6' component="span">Junior .Net Developer
               </Typography>
-                <Typography>Because you need strength</Typography></TimelineContent>
+                <Typography style={{ marginBottom: '30px' }}>Within my position, I maintained the website using Umbraco CMS, ensuring it remained functional and up-to-date. I actively collaborated with other team members to solve problems, streamline processes, and improve the overall performance of the site. My responsibilities included troubleshooting issues, implementing updates, and optimizing content management to enhance user experience and site efficiency.
+                </Typography></TimelineContent>
             </TimelineItem>
 
             <TimelineItem>
-              <TimelineOppositeContent color="white" >
-                Global Odds Holding
+              <TimelineOppositeContent
+                sx={{}}
+                align="right"
+                color="white"
+                variant='h6'
+                marginBottom='40px'
+              >
+                <Typography variant='h6' component="span">Global Odds Holiding
+                </Typography>
+                <Typography style={{ marginBottom: '30px' }}> July 2023</Typography>
               </TimelineOppositeContent>
+
               <TimelineSeparator>
-                <TimelineDot />
+                <TimelineDot variant="outlined" color='info' />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent style={{ color: 'white' }}>Junior Software Developer</TimelineContent>
+              <TimelineContent style={{ color: 'white' }}><Typography variant='h6' component="span">Junior Software Developer
+              </Typography>
+                <Typography style={{ marginBottom: '30px' }}>In my capacity as a team member, I tested, diagnosed, and fixed web application issues, contributing significantly to full stack development. I ensured website translations met i18n standards, performed cross-browser compatibility testing, and implemented responsive designs using media queries. Collaborating with my team using Jira, Bitbucket, and Confluence, I effectively managed tasks, version control, and documentation. Additionally, I used Postman to test and validate REST API responses, ensuring our APIs were reliable and efficient.</Typography></TimelineContent>
             </TimelineItem>
 
             <TimelineItem>
-              <TimelineOppositeContent color="white" >
-                Piex Education
+              <TimelineOppositeContent
+                sx={{}}
+                align="right"
+                color="white"
+                variant='h6'
+                marginBottom='40px'
+              > <Typography variant='h6' component="span">Piex Education
+                </Typography>
+                <Typography style={{ marginBottom: '5px' }}> September 2022</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
-                <TimelineDot />
+                <TimelineDot variant="outlined" color='info' />
+                <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent style={{ color: 'white' }}>3D Game Developer</TimelineContent>
+              <TimelineContent style={{ color: 'white' }}><Typography variant='h6' component="span">3D Unity Developer
+              </Typography>
+                <Typography>In my role, I developed a 3D environment that was both educational and fun, designed engaging game levels, and programmed various game functions. I collaborated closely with the manager to resolve workflow issues and regularly reported updates and bugs to the head, ensuring smooth project progress.</Typography></TimelineContent>
             </TimelineItem>
 
-          </Timeline></div>
+          </Timeline>
+        </div>
 
       </div>
       </section>

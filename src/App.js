@@ -109,7 +109,7 @@ function App() {
       <section id="about"><div className='about-container'>
         <span className='about-me'>Passionate Web Developer with expertise in front-end and back-end technologies. Skilled in creating responsive, user-friendly websites and web applications using HTML, CSS, JavaScript, and modern frameworks like React and Angular. Proficient in server-side languages such as Node.js and Python, with experience in database management and cloud services. Committed to writing clean, efficient code and staying updated with the latest industry trends to deliver top-notch digital solutions.
           Let's connect and level up together in the world of digital innovation! Let's connect and level up together in the world of digital innovation!</span>
-        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'left' }}>Skills</h6>
+        <h6 style={{ color: 'var(--text)', display: 'flex', justifyContent: 'left' }}>Skills</h6>
         <div className='skill'>
           <Box component="section" sx={{ p: 1, border: '1px solid #ededed', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
             HTML
@@ -148,7 +148,7 @@ function App() {
             Wordpress
           </Box>
         </div>
-        <h6 style={{ color: 'white', display: 'flex', justifyContent: 'left' }}>Experience</h6>
+        <h6 style={{ color: 'var(--text)', display: 'flex', justifyContent: 'left' }}>Experience</h6>
         <div className='experience'>
           <Timeline
             sx={{
@@ -165,15 +165,15 @@ function App() {
                 variant='h6'
                 marginBottom='40px'
               >
-                <Typography variant='h6' component="span">Cypha Interactive
+                <Typography variant='h6' component="span" style={{ color: 'var(--text)' }}>Cypha Interactive
                 </Typography>
-                <Typography style={{ marginBottom: '30px' }}> November 2023</Typography>
+                <Typography style={{ marginBottom: '30px', color: 'var(--text)'  }}> November 2023</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
-                <TimelineDot variant="outlined" color='info' />
+                <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent style={{ color: 'white' }}><Typography variant='h6' component="span">Junior .Net Developer
+              <TimelineContent style={{ color: 'var(--text)' }}><Typography variant='h6' component="span">Junior .Net Developer
               </Typography>
                 <Typography style={{ marginBottom: '30px' }}>Within my position, I maintained the website using Umbraco CMS, ensuring it remained functional and up-to-date. I actively collaborated with other team members to solve problems, streamline processes, and improve the overall performance of the site. My responsibilities included troubleshooting issues, implementing updates, and optimizing content management to enhance user experience and site efficiency.
                 </Typography></TimelineContent>
@@ -187,18 +187,18 @@ function App() {
                 variant='h6'
                 marginBottom='40px'
               >
-                <Typography variant='h6' component="span">Global Odds Holiding
+                <Typography variant='h6' component="span" style={{ color: 'var(--text)' }}>Global Odds Holiding
                 </Typography>
-                <Typography style={{ marginBottom: '30px' }}> July 2023</Typography>
+                <Typography style={{ marginBottom: '30px', color: 'var(--text)' }}> July 2023</Typography>
               </TimelineOppositeContent>
 
               <TimelineSeparator>
-                <TimelineDot variant="outlined" color='info' />
+                <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent style={{ color: 'white' }}><Typography variant='h6' component="span">Junior Software Developer
+              <TimelineContent style={{ color: 'var(--text)' }}><Typography variant='h6' component="span">Junior Software Developer
               </Typography>
-                <Typography style={{ marginBottom: '30px' }}>In my capacity as a team member, I tested, diagnosed, and fixed web application issues, contributing significantly to full stack development. I ensured website translations met i18n standards, performed cross-browser compatibility testing, and implemented responsive designs using media queries. Collaborating with my team using Jira, Bitbucket, and Confluence, I effectively managed tasks, version control, and documentation. Additionally, I used Postman to test and validate REST API responses, ensuring our APIs were reliable and efficient.</Typography></TimelineContent>
+                <Typography style={{ marginBottom: '30px', color: 'var(--text)' }}>In my capacity as a team member, I tested, diagnosed, and fixed web application issues, contributing significantly to full stack development. I ensured website translations met i18n standards, performed cross-browser compatibility testing, and implemented responsive designs using media queries. Collaborating with my team using Jira, Bitbucket, and Confluence, I effectively managed tasks, version control, and documentation. Additionally, I used Postman to test and validate REST API responses, ensuring our APIs were reliable and efficient.</Typography></TimelineContent>
             </TimelineItem>
 
             <TimelineItem>
@@ -208,15 +208,15 @@ function App() {
                 color="white"
                 variant='h6'
                 marginBottom='40px'
-              > <Typography variant='h6' component="span">Piex Education
+              > <Typography variant='h6' component="span" style={{ color: 'var(--text)' }}>Piex Education
                 </Typography>
-                <Typography style={{ marginBottom: '5px' }}> September 2022</Typography>
+                <Typography style={{ marginBottom: '5px', color: 'var(--text)' }}> September 2022</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
-                <TimelineDot variant="outlined" color='info' />
+                <TimelineDot variant="outlined" />
                 <TimelineConnector />
               </TimelineSeparator>
-              <TimelineContent style={{ color: 'white' }}><Typography variant='h6' component="span">3D Unity Developer
+              <TimelineContent style={{ color: 'var(--text)' }}><Typography variant='h6' component="span">3D Unity Developer
               </Typography>
                 <Typography>In my role, I developed a 3D environment that was both educational and fun, designed engaging game levels, and programmed various game functions. I collaborated closely with the manager to resolve workflow issues and regularly reported updates and bugs to the head, ensuring smooth project progress.</Typography></TimelineContent>
             </TimelineItem>

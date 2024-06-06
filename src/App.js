@@ -19,6 +19,8 @@ import TimelineOppositeContent, {
   timelineOppositeContentClasses,
 } from '@mui/lab/TimelineOppositeContent';
 import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
+import LinkIcon from '@mui/icons-material/Link';
 
 
 
@@ -209,7 +211,7 @@ function App() {
                 variant='h6'
                 marginBottom='40px'
               > <Typography variant='h6' component="span" style={{ color: 'var(--text)' }}>Piex Education
-                </Typography>
+                </Typography><Link href="https://www.piexeducation.com/" target="_blank" style={{padding:'4px', color:'purple', margin:'5px', height:'100px'}}>< LinkIcon/></Link>
                 <Typography style={{ marginBottom: '5px', color: 'var(--text)' }}> September 2022</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>

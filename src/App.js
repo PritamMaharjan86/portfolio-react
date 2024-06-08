@@ -168,7 +168,7 @@ function App() {
                 marginBottom='40px'
               >
                 <Typography variant='h6' component="span" style={{ color: 'var(--text)' }}>Cypha Interactive
-                </Typography>
+                </Typography><Link href="https://www.cyphainteractive.com.au/" target="_blank" style={{padding: '2px', color: '#5754a8', margin: '2px', alignItems: 'center'}}>< LinkIcon/></Link>
                 <Typography style={{ marginBottom: '30px', color: 'var(--text)'  }}> November 2023</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
@@ -190,7 +190,7 @@ function App() {
                 marginBottom='40px'
               >
                 <Typography variant='h6' component="span" style={{ color: 'var(--text)' }}>Global Odds Holiding
-                </Typography>
+                </Typography><Link href="https://globalodds.com/#!/" target="_blank" style={{padding: '2px', color: '#5754a8', margin: '2px', alignItems: 'center'}}>< LinkIcon/></Link>
                 <Typography style={{ marginBottom: '30px', color: 'var(--text)' }}> July 2023</Typography>
               </TimelineOppositeContent>
 
@@ -211,8 +211,8 @@ function App() {
                 variant='h6'
                 marginBottom='40px'
               > <Typography variant='h6' component="span" style={{ color: 'var(--text)' }}>Piex Education
-                </Typography><Link href="https://www.piexeducation.com/" target="_blank" style={{padding:'4px', color:'purple', margin:'5px', height:'100px'}}>< LinkIcon/></Link>
-                <Typography style={{ marginBottom: '5px', color: 'var(--text)' }}> September 2022</Typography>
+                </Typography><Link href="https://www.piexeducation.com/" target="_blank" style={{padding: '2px', color: '#5754a8', margin: '2px', alignItems: 'center'}}>< LinkIcon/></Link>
+                <Typography style={{ marginBottom: '1px', color: 'var(--text)' }}> September 2022</Typography>
               </TimelineOppositeContent>
               <TimelineSeparator>
                 <TimelineDot variant="outlined" />

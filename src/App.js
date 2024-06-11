@@ -99,7 +99,7 @@ function App() {
 
             <TypeAnimation
               sequence={[
-                'Hello !!!',
+                'Hello There!',
                 2000,
                 'I am Pritam',
                 2000,
@@ -146,37 +146,37 @@ function App() {
 
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               HTML
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               CSS
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               JavaScript
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               MYSQL
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               React
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               Github
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               Material-UI
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               Postman
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               Node
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               Bitbucket
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               Umbraco
-            </Box><Divider orientation="vertical" variant="middle" style={{border:'1px solid #bbbbbb '}} flexItem />
+            </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
             <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '18px', textAlign: 'center', fontWeight: '300' }}>
               Wordpress
             </Box>
@@ -264,46 +264,72 @@ function App() {
       <section id="work">
 
         <div className='work'>
-          <Box sx={{ width: 1200, margin: '0 auto', display: 'flex' }}>
+          <Box sx={{ width: 1200, margin: '0 auto', display: 'flex'}}>
             <Stack spacing={{ xs: 1, sm: 2 }} direction="row" useFlexGap flexWrap="wrap">
-              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb' }}>
+              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb', borderRadius:'30px 0px 30px 0px'  }}>
                 <p style={{ fontSize: '25px', color: '#bbbbbb' }}>Weather App</p>
                 <div className='links'>
                   <a href='https://github.com/PritamMaharjan86/Weather-App' target="_blank" style={{ color: '#5754a8' }}><GitHubIcon /></a>
                 </div>
                 <div className='tech'>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    HTML
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    CSS
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    JavaScript
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    MYSQL
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      borderRadius: 0.5,
+                      bgcolor: '#5754a8',
+                      color: 'black',
+                      '& svg': {
+                        m: 1,
+                      },
+                    }}
+                  >
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      HTML
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      CSS
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      React
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      MYSQL
+                    </Box>
                   </Box>
                 </div>
 
               </Item>
-              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb' }}>
+              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb', borderRadius:'0px 30px 0px 30px' }}>
                 <p style={{ fontSize: '25px', color: '#bbbbbb' }}>Reminder App</p>
                 <div className='links'>
                   <a href='https://github.com/PritamMaharjan86/Reminder-App' target="_blank" style={{ color: '#5754a8' }}><GitHubIcon /></a>
                 </div>
                 <div className='tech'>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    HTML
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    CSS
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    JavaScript
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    MYSQL
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      borderRadius: 0.5,
+                      bgcolor: '#5754a8',
+                      color: 'black',
+                      '& svg': {
+                        m: 1,
+                      },
+                    }}
+                  >
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      HTML
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      CSS
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      React
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      MYSQL
+                    </Box>
                   </Box>
                 </div>
 
@@ -314,19 +340,35 @@ function App() {
                   <a href='https://github.com/PritamMaharjan86/Recipe-app' target="_blank" style={{ color: '#5754a8' }}><GitHubIcon /></a>
                 </div>
                 <div className='tech'>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    HTML
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      borderRadius: 0.5,
+                      bgcolor: '#5754a8',
+                      color: 'black',
+                      '& svg': {
+                        m: 1,
+                      },
+                    }}
+                  >
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      HTML
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      CSS
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      JavaScript
+                    </Box><Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      MYSQL
+                    </Box>
+                    <Divider orientation="vertical" variant="middle" style={{ border: '1px solid #bbbbbb ' }} flexItem />
+                    <Box component="section" sx={{ p: 1, height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
+                      Material-UI
+                    </Box>
                   </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    CSS
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    JavaScript
-                  </Box>
-                  <Box component="section" sx={{ p: 1, border: '1px solid #bbbbbb', height: '20px', minWidth: '100px', color: '#bbbbbb', fontSize: '14px', textAlign: 'center', fontWeight: '300' }}>
-                    MYSQL
-                  </Box>
-
 
                 </div>
 

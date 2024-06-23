@@ -266,7 +266,7 @@ function App() {
         <div className='work'>
           <Box sx={{ width: 1200, margin: '0 auto', display: 'flex'}}>
             <Stack spacing={{ xs: 1, sm: 2 }} direction="row" useFlexGap flexWrap="wrap">
-              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb', borderRadius:'30px 0px 30px 0px'  }}>
+              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb', borderRadius:'0px 0px 0px 0px'  }}>
                 <p style={{ fontSize: '25px', color: '#bbbbbb' }}>Weather App</p>
                 <div className='links'>
                   <a href='https://github.com/PritamMaharjan86/Weather-App' target="_blank" style={{ color: '#5754a8' }}><GitHubIcon /></a>
@@ -300,7 +300,7 @@ function App() {
                 </div>
 
               </Item>
-              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb', borderRadius:'0px 30px 0px 30px' }}>
+              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb', borderRadius:'0px 0px 0px 0px' }}>
                 <p style={{ fontSize: '25px', color: '#bbbbbb' }}>Reminder App</p>
                 <div className='links'>
                   <a href='https://github.com/PritamMaharjan86/Reminder-App' target="_blank" style={{ color: '#5754a8' }}><GitHubIcon /></a>
@@ -334,7 +334,7 @@ function App() {
                 </div>
 
               </Item>
-              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb' }}>
+              <Item style={{ padding: '0px', width: '500px', height: '350px', border: '1px solid #bbbbbb' , borderRadius:'0px 0px 0px 0px', background:'hsla(160, 52%, 71%, .05)'}}>
                 <p style={{ fontSize: '25px', color: '#bbbbbb' }}>Recipe App</p>
                 <div className='links'>
                   <a href='https://github.com/PritamMaharjan86/Recipe-app' target="_blank" style={{ color: '#5754a8' }}><GitHubIcon /></a>

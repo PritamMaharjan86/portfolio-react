@@ -72,7 +72,7 @@ function App() {
             <SocialIcon url="https://www.linkedin.com/in/pritammaharjan/" />
             <SocialIcon url="https://github.com/PritamMaharjan86/" />
             <SocialIcon url="mailto:primgdev@gmail.com" />
-
+            <SocialIcon url="https://primgdev.itch.io/" />
           </div>
         </div>
 

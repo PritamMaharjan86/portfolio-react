@@ -5,9 +5,10 @@
   align-items: center;
   position: fixed;
   background-color: #eaab00;
-  width: 80%;
+  width: 50%;
   border-radius: 10px;
-  height: 65px;
+  height: 70px;
+  z-index: 1;
 }
 
 

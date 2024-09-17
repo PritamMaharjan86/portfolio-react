@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Loader from './components/loader';
 import { TypeAnimation } from 'react-type-animation';
 import { ThemeProvider, Box, Typography } from '@mui/material';
+import { SocialIcon } from 'react-social-icons'
 
 
 
@@ -61,13 +62,18 @@ function App() {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: '50px', display: 'inline-block', fontFamily: 'CustomFont', maxWidth: '100%'}}
+              style={{ fontSize: '50px', display: 'inline-block', fontFamily: 'CustomFont', maxWidth: '100%' }}
             />
           </h1>
 
           <p style={{ fontSize: '20px', color: 'black', fontFamily: 'textFont', width: '60%' }}> I am passionate about creating experiences that are easy to use, accessible, and that meet the user's needs.</p>
           {loading ? <Loader /> : <p></p>}
+          <div style={{ display: 'flex', gap: '15px' }}>
+            <SocialIcon url="https://www.linkedin.com/in/pritammaharjan/" />
+            <SocialIcon url="https://github.com/PritamMaharjan86/" />
+            <SocialIcon url="mailto:primgdev@gmail.com" />
 
+          </div>
         </div>
 
 

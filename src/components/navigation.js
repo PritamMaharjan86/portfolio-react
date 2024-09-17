@@ -8,13 +8,13 @@ export default function Navigation() {
         <>
             <div class="nav-holder">
                 <div class="nav-top">
-                    <Link className='nav' style={{ transition: 'all 0.1s ease-in-out', paddingTop: '10px', paddingBottom: '10px', fontFamily: 'CustomFont', fontWeight:'bold' }}>
+                    <Link className='nav' style={{ transition: 'all 0.1s ease-in-out', fontFamily: 'CustomFont', fontWeight: 'bold' }}>
                         Home
                     </Link>
-                    <Link className='nav' style={{ transition: 'all 0.1s ease-in-out', paddingTop: '10px', paddingBottom: '10px', fontFamily: 'CustomFont', fontWeight:'bold' }}>
+                    <Link className='nav' style={{ transition: 'all 0.1s ease-in-out', fontFamily: 'CustomFont', fontWeight: 'bold' }}>
                         Projects
                     </Link>
-                    
+
                 </div>
             </div>
         </>

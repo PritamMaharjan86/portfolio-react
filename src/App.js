@@ -61,11 +61,11 @@ function App() {
               wrapper="span"
               cursor={true}
               repeat={Infinity}
-              style={{ fontSize: '50px', display: 'inline-block', fontFamily: 'CustomFont' }}
+              style={{ fontSize: '50px', display: 'inline-block', fontFamily: 'CustomFont', maxWidth: '100%'}}
             />
           </h1>
 
-          <p style={{ fontSize: '20px', color: 'black', fontFamily: 'textFont' }}> I am passionate about creating experiences that are easy to use, accessible, and that meet the user's needs.</p>
+          <p style={{ fontSize: '20px', color: 'black', fontFamily: 'textFont', width: '60%' }}> I am passionate about creating experiences that are easy to use, accessible, and that meet the user's needs.</p>
           {loading ? <Loader /> : <p></p>}
 
         </div>
@@ -92,7 +92,7 @@ function App() {
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              width: '100vw',
+              width: '100%',
               height: '100vh',
               bgcolor: 'background.default'
             }}

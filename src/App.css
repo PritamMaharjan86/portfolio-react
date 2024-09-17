@@ -1,35 +1,12 @@
-:root {
-  --text: #bbbbbb;
+
+@font-face {
+  font-family: 'CustomFont'; 
+  src: url('/public/AGENTORANGE.TTF'); 
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'textFont';
+  src: url('/public/MADECarvingSoftOutlinePERSONALUSE-Thin.otf');
 }
 
 @keyframes App-logo-spin {
@@ -41,15 +18,8 @@
   }
 }
 
-.description {
-  color: #bbbbbb;
-  line-height: 1.8;
-  font-size: 25px;
-  width: 1200px;
-}
-
 .wrapper {
-  background:#5754a8;
+  background:black;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
@@ -63,58 +33,3 @@
   text-align: center;
 }
 
-.about-me {
-  color: var(--text);
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 1px;
-}
-
-.about-container {
-  margin-top: 100px;
-  text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  font-weight: 300;
-}
-
-.skill {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding-bottom: 40px;
-  color: var(--text);
-}
-
-.work {
-  margin-top: 100px;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 30px;
-}
-
-.tech {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin-top: 50px;
-  justify-content: center;
-  color: var(--text);
-}
-
-.foot {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
-  padding: 30px 0;
-  border-top: 1px solid #bbbbbb;
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-}

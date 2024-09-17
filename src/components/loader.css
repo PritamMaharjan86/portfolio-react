@@ -1,4 +1,3 @@
-/* Loader.css */
 .loader {
     position: fixed;
     top: 0;
@@ -8,20 +7,51 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8); /* Optional: semi-transparent background */
-    z-index: 9999; /* Ensure loader is on top */
+    background-color: rgba(39, 39, 39, 0.6); 
+    z-index: 9999; 
 }
 
 .spinner {
-    border: 6px solid #6edaa3; /* Light grey */
-    border-top: 6px solid #c86ac7; /* Blue */
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    animation: spin 1s linear infinite;
+  width: 4px;
+  color: rgb(0, 0, 0) ;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: 19px -19px 0 0px, 38px -19px 0 0px, 57px -19px 0 0px, 19px 0 0 5px,
+    38px 0 0 5px, 57px 0 0 5px, 19px 19px 0 0px, 38px 19px 0 0px,
+    57px 19px 0 0px;
+  transform: translateX(-38px);
+  animation: l26 2s infinite linear;
+ 
 }
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+@keyframes l26 {
+  12.5% {
+    box-shadow: 19px -19px 0 0px, 38px -19px 0 0px, 57px -19px 0 5px,
+      19px 0 0 5px, 38px 0 0 0px, 57px 0 0 5px, 19px 19px 0 0px, 38px 19px 0 0px,
+      57px 19px 0 0px;
+  }
+  25% {
+    box-shadow: 19px -19px 0 5px, 38px -19px 0 0px, 57px -19px 0 5px,
+      19px 0 0 0px, 38px 0 0 0px, 57px 0 0 0px, 19px 19px 0 0px, 38px 19px 0 5px,
+      57px 19px 0 0px;
+  }
+  50% {
+    box-shadow: 19px -19px 0 5px, 38px -19px 0 5px, 57px -19px 0 0px,
+      19px 0 0 0px, 38px 0 0 0px, 57px 0 0 0px, 19px 19px 0 0px, 38px 19px 0 0px,
+      57px 19px 0 5px;
+  }
+  62.5% {
+    box-shadow: 19px -19px 0 0px, 38px -19px 0 0px, 57px -19px 0 0px,
+      19px 0 0 5px, 38px 0 0 0px, 57px 0 0 0px, 19px 19px 0 0px, 38px 19px 0 5px,
+      57px 19px 0 5px;
+  }
+  75% {
+    box-shadow: 19px -19px 0 0px, 38px -19px 0 5px, 57px -19px 0 0px,
+      19px 0 0 0px, 38px 0 0 0px, 57px 0 0 5px, 19px 19px 0 0px, 38px 19px 0 0px,
+      57px 19px 0 5px;
+  }
+  87.5% {
+    box-shadow: 19px -19px 0 0px, 38px -19px 0 5px, 57px -19px 0 0px,
+      19px 0 0 0px, 38px 0 0 5px, 57px 0 0 0px, 19px 19px 0 5px, 38px 19px 0 0px,
+      57px 19px 0 0px;
+  }
 }

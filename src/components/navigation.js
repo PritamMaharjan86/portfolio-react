@@ -1,22 +1,32 @@
-import React from 'react'
-import '../components/navigation.css';
-import { Link } from "react-scroll";
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+import './navigation.css';
 
-export default function Navigation() {
+function Navbar() {
+    const location = useLocation();
 
     return (
-        <>
-            <div class="nav-holder">
-                <div class="nav-top">
-                    <Link className='nav' style={{ transition: 'all 0.1s ease-in-out', fontFamily: 'CustomFont', fontWeight: 'bold' }}>
+        <div className='nav-holder'>
+            <ul>
+                <li>
+                    <a
+                        href="/home"
+                        className={location.pathname === "/home" ? "active" : ""}
+                    >
                         Home
-                    </Link>
-                    <Link className='nav' style={{ transition: 'all 0.1s ease-in-out', fontFamily: 'CustomFont', fontWeight: 'bold' }}>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="/projects"
+                        className={location.pathname === "/projects" ? "active" : ""}
+                    >
                         Projects
-                    </Link>
-
-                </div>
-            </div>
-        </>
-    )
+                    </a>
+                </li>
+            </ul>
+        </div>
+    );
 }
+
+export default Navbar;

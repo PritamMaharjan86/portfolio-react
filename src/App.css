@@ -1,12 +1,11 @@
-
 @font-face {
-  font-family: 'CustomFont'; 
-  src: url('/public/AGENTORANGE.TTF'); 
+  font-family: "CustomFont";
+  src: url("/public/AGENTORANGE.TTF");
 }
 
 @font-face {
-  font-family: 'textFont';
-  src: url('/public/MADECarvingSoftOutlinePERSONALUSE-Thin.otf');
+  font-family: "textFont";
+  src: url("/public/MADECarvingSoftOutlinePERSONALUSE-Thin.otf");
 }
 
 @keyframes App-logo-spin {
@@ -19,7 +18,7 @@
 }
 
 .wrapper {
-  background:black;
+  background: black;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 60px;
@@ -33,3 +32,93 @@
   text-align: center;
 }
 
+.social-icon {
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: rotate(360deg);
+  animation: swing 0.5s ease-in-out;
+}
+
+@keyframes swing {
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.project {
+  width: 300px; 
+  height: 400px;  
+  margin-top: 100px;
+  padding: 1rem;
+  border-radius: 1rem; 
+  border: 1px solid rgba(43, 105, 251, 0.12);
+  box-shadow: rgba(43, 105, 251, 0.06) 0px 4px 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: column; 
+  overflow: hidden;
+}
+
+.project-img:hover {
+  transform: scale(1.05); 
+  background-size: 110%; 
+  z-index: 0;
+  
+}
+
+.project-wrap {
+  display: flex;
+  flex-direction: column; 
+  height: 100vh; 
+}
+
+.project-img {
+  flex: 2;
+  width: 100%; 
+  height: 100%; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.8rem 0.8rem 0 0; 
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.project-text {
+  flex: 1;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  color: black;
+  background: rgb(234, 235, 235);
+  box-shadow: rgb(234, 235, 235) 0px 0px 4rem 6rem;
+  padding: 1rem;
+  border-radius: 0 0 0.8rem 0.8rem; 
+  text-align: left;
+  line-height: 1.5em;
+  font-family: textFont;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin: 0;
+}

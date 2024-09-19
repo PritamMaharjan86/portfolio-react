@@ -125,9 +125,9 @@ function Home() {
                         alignItems: 'center',
                         width: '100%',
                         height: {
-                            xs: '80vh',  // For mobile screens
-                            sm: '90vh',  // For tablets
-                            md: '100vh', // For larger screens (default)
+                            xs: '80vh',
+                            sm: '90vh',
+                            md: '100vh',
                         },
                         bgcolor: 'background.default'
                     }}
@@ -196,7 +196,13 @@ function Home() {
                                 />
                             </Box>
 
-                            <Typography sx={{ color: '#808080', position: 'absolute', left: '50%', transform: 'translateX(-50%)', fontSize: '15px' }}>pritam@Pritams-MacBook-Pro:~/Users</Typography>
+                            <Typography sx={{
+                                color: '#808080', position: 'absolute', left: '50%', transform: 'translateX(-50%)', fontSize: '15px', '@media (max-width: 600px)': {
+                                    fontSize: '12px',
+                                    left: '25%',
+                                    transform: 'translateX(0)',
+                                },
+                            }}>pritam@Pritams-MacBook-Pro:~/Users</Typography>
                         </Box>
 
 
@@ -211,75 +217,145 @@ function Home() {
                                 borderRadius: '0 0 15px 15px'
                             }}
                         >
-                            <Typography sx={{ fontSize: '15px', textAlign: 'left' }}>
+                            <Typography sx={{
+                                fontSize: '15px', textAlign: 'left', '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                },
+                            }}>
                                 Last Login: {time} {date} on ttys001
                             </Typography>
 
-                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px' }}>
+                            <Typography sx={{
+                                color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                },
+                            }}>
                                 {userDetails.username}@{userDetails.computerName} $ <></>
-                                <Box component="span" sx={{ color: 'red', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'red', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     Users/location
                                 </Box>
                                 <br />
-                                <Box component="span" sx={{ color: 'yellow', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'yellow', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     ➜ 'Sydney, Australia'
                                 </Box>
 
 
                             </Typography>
 
-                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px' }}>
+                            <Typography sx={{
+                                color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                },
+                            }}>
                                 {userDetails.username}@{userDetails.computerName} $ <></>
-                                <Box component="span" sx={{ color: 'red', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'red', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     Users/contactInfo
                                 </Box>
                                 <br />
-                                <Box component="span" sx={{ color: 'yellow', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'yellow', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     ➜ ['<a href="mailto:primgdev@gmail.com" style={{ color: 'cyan', textDecoration: 'none' }}>primgdev@gmail.com</a>',
                                     '<a href="https://www.linkedin.com/in/pritammaharjan/" target="_blank" rel="noopener noreferrer" style={{ color: 'cyan', textDecoration: 'none' }}>LinkedIn</a>',
                                     '<a href="https://github.com/PritamMaharjan86/" target="_blank" rel="noopener noreferrer" style={{ color: 'cyan', textDecoration: 'none' }}>GitHub</a>']
                                 </Box>
                             </Typography>
 
-                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px' }}>
+                            <Typography sx={{
+                                color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                },
+                            }}>
                                 {userDetails.username}@{userDetails.computerName} $ <></>
-                                <Box component="span" sx={{ color: 'red', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'red', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     Users/educationQualification
                                 </Box>
                                 <br />
-                                <Box component="span" sx={{ color: 'yellow', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'yellow', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     ➜ 'Bachelor's in Information Technology (Game Programming) - Academy of Interactive Technology, Sydney'
                                 </Box>
 
 
                             </Typography>
 
-                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px' }}>
+                            <Typography sx={{
+                                color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                },
+                            }}>
                                 {userDetails.username}@{userDetails.computerName} $ <></>
-                                <Box component="span" sx={{ color: 'red', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'red', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     Users/skills
                                 </Box>
                                 <br />
-                                <Box component="span" sx={{ color: 'yellow', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'yellow', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     ➜ ['HTML', 'CSS', 'JavaScript', 'git', 'React', 'MySQL', 'MongoDB']
                                 </Box>
 
 
                             </Typography>
 
-                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px' }}>
+                            <Typography sx={{
+                                color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                },
+                            }}>
                                 {userDetails.username}@{userDetails.computerName} $ <></>
-                                <Box component="span" sx={{ color: 'red', display: 'inline-block', mt: '10px' }}>
+                                <Box component="span" sx={{
+                                    color: 'red', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
                                     Users/downloadResume
                                 </Box>
                                 <br />
-                                <Box component="span" sx={{ color: 'yellow', display: 'inline-block', mt: '10px' }}>
-                                    ➜ '<a href="/resume.pdf" download="pritam_resume.pdf" style={{ color: 'cyan', textDecoration: 'none' }}>Resume.pdf</a>'
+                                <Box component="span" sx={{
+                                    color: 'yellow', display: 'inline-block', mt: '10px', '@media (max-width: 600px)': {
+                                        fontSize: '12px'
+                                    },
+                                }}>
+                                    ➜ '<a href="/resume.pdf" download="pritam_resume.pdf" style={{
+                                        color: 'cyan', textDecoration: 'none', '@media (max-width: 600px)': {
+                                            fontSize: '12px'
+                                        },
+                                    }}>Resume.pdf</a>'
                                 </Box>
 
                             </Typography>
 
-                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px' }}>
+                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
+                                    fontSize: '12px'
+                                }, }}>
                                 {userDetails.username}@{userDetails.computerName} $ <></>
                                 <Box
                                     component="span"

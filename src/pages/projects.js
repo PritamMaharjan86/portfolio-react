@@ -31,32 +31,43 @@ const Projects = () => {
                 <Navigation />
                 {loading ? <Loader /> : <p></p>}
 
-                <div className='project'>
-                    <div className='project-wrap'>
-
-                        <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1726650516/Screenshot_2024-09-15_at_09.27.17_uqnunk.png'></img>
-                        <div className='project-text'>
-                            <span style={{ display: 'flex', alignItems: 'center' }}>
-                                <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>SignUp and Login</h3>
-                                <SocialIcon url="https://github.com/PritamMaharjan86/signup" style={{ width: '30px', height: '30px' }} />
-                            </span>
-
-                            <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.
-
-
-
-
-
-
-                            </p>
+                <div className='projects-row'>
+                    <div className='project'>
+                        <div className='project-wrap'>
+                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1726650516/Screenshot_2024-09-15_at_09.27.17_uqnunk.png' alt="Project Screenshot"></img>
+                            <div className='project-text'>
+                                <span style={{ display: 'flex', alignItems: 'center' }}>
+                                    <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>SignUp and Login</h3>
+                                    <SocialIcon url="https://github.com/PritamMaharjan86/signup" style={{ width: '30px', height: '30px' }} />
+                                </span>
+                                <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.</p>
+                            </div>
                         </div>
                     </div>
 
-
+                    <div className='project'>
+                        <div className='project-wrap'>
+                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1726650516/Screenshot_2024-09-15_at_09.27.17_uqnunk.png' alt="Project Screenshot"></img>
+                            <div className='project-text'>
+                                <span style={{ display: 'flex', alignItems: 'center' }}>
+                                    <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>SignUp and Login</h3>
+                                    <SocialIcon url="https://github.com/PritamMaharjan86/signup" style={{ width: '30px', height: '30px' }} />
+                                </span>
+                                <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
+
+
             </div>
+
+            <footer class="footer">
+                <p> Developed by Pritam</p>
+
+            </footer>
         </div>
     )
 }

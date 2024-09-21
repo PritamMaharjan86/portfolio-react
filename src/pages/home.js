@@ -353,9 +353,11 @@ function Home() {
 
                             </Typography>
 
-                            <Typography sx={{ color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
+                            <Typography sx={{
+                                color: 'white', fontSize: '15px', textAlign: 'left', marginTop: '20px', '@media (max-width: 600px)': {
                                     fontSize: '12px'
-                                }, }}>
+                                },
+                            }}>
                                 {userDetails.username}@{userDetails.computerName} $ <></>
                                 <Box
                                     component="span"
@@ -382,7 +384,10 @@ function Home() {
                 </Box>
 
             </ThemeProvider>
-
+            <footer class="footer">
+                <p> Developed by Pritam</p>
+               
+            </footer> 
 
         </div>
 

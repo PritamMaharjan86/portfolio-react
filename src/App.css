@@ -128,6 +128,12 @@
   animation: swing 0.5s ease-in-out;
 }
 
+.projects-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 @keyframes swing {
   20% {
     transform: rotate(15deg);
@@ -147,22 +153,20 @@
 }
 
 .project {
-  width: 90%;
-  max-width: 300px;
+  width: 100%;
+  max-width: 350px;
   height: auto;
   margin-top: 100px;
   padding: 1rem;
   border-radius: 1rem;
-  border: 1px solid rgba(43, 105, 251, 0.12);
-  box-shadow: rgba(43, 105, 251, 0.06) 0px 4px 8px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   overflow: hidden;
   transition: transform 0.3s ease-in-out, width 0.3s ease-in-out;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15),
+    0px 10px 10px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .project-img:hover {
   transform: scale(1.05);
@@ -196,9 +200,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 1rem;
-  color: black;
-  background: rgb(234, 235, 235);
-  box-shadow: rgb(234, 235, 235) 0px 0px 4rem 6rem;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(255, 255, 255) 0px 0px 4rem 6rem;
   padding: 1rem;
   border-radius: 0 0 0.8rem 0.8rem;
   text-align: left;
@@ -207,16 +211,34 @@
   font-weight: bold;
 }
 
-.project-paragraph{
+.project-paragraph {
   font-family: textFont;
   line-height: 1.5em;
-
 }
 
 h3 {
   font-size: 1.5rem;
   line-height: 1;
   margin: 0;
+}
+
+.footer {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.footer p {
+  color: black;
+  font-family: textFont;
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+  border-bottom: 1px solid black; 
+  padding-bottom: 10px; 
+  
 }
 
 @media (max-width: 768px) {
@@ -238,9 +260,8 @@ h3 {
 
 @media (max-width: 480px) {
   .project {
-    width: 95%;
+    width: 90%;
     max-width: none;
-    margin: 10px auto;
   }
 
   .project-text {
@@ -272,7 +293,9 @@ h3 {
     margin-top: 30px;
   }
 
-  .social-icon {
-    margin-bottom: 60px;
+  .projects-row {
+    display: block;
+    margin: 20px;
+    padding: 10px;
   }
 }

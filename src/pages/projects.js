@@ -53,7 +53,7 @@ const Projects = () => {
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Calculator App</h3>
                                     <SocialIcon url="https://github.com/PritamMaharjan86/Calculator-App" style={{ width: '30px', height: '30px' }} />
                                 </span>
-                                <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.</p>
+                                <p className='project-paragraph'>A Calculator App built with React.js provides a responsive interface for basic calculations. Styled with CSS, it offers real-time results and smooth interactions, optimized for both mobile and desktop users.</p>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,8 @@ const Projects = () => {
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Portfolio</h3>
                                     <SocialIcon url="https://github.com/PritamMaharjan86/portfolio-react" style={{ width: '30px', height: '30px' }} />
                                 </span>
-                                <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.</p>
+                                <p className='project-paragraph'>
+                                    A Personal Portfolio built with React.js showcases projects and skills through a responsive, modern design. Styled with CSS, it offers smooth navigation and adapts seamlessly to mobile and desktop devices.</p>
                             </div>
                         </div>
                     </div>
@@ -81,7 +82,7 @@ const Projects = () => {
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Weather App</h3>
                                     <SocialIcon url="https://github.com/PritamMaharjan86/Weather-App" style={{ width: '30px', height: '30px' }} />
                                 </span>
-                                <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.</p>
+                                <p className='project-paragraph'>A Weather App built with React.js fetches real-time weather data using an API. Styled with CSS, it offers a clean, responsive design, displaying current conditions and forecasts for any location on both mobile and desktop devices.</p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +95,8 @@ const Projects = () => {
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Reminder App</h3>
                                     <SocialIcon url="https://github.com/PritamMaharjan86/Reminder-App" style={{ width: '30px', height: '30px' }} />
                                 </span>
-                                <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.</p>
+                                <p className='project-paragraph'>
+                                    A Reminder App built with React.js helps users organize tasks and set reminders. Styled with CSS, it offers a simple, responsive interface, allowing users to manage tasks seamlessly on both mobile and desktop devices.</p>
                             </div>
                         </div>
                     </div>
@@ -107,7 +109,8 @@ const Projects = () => {
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Menu Forecast</h3>
                                     <SocialIcon url="https://github.com/PritamMaharjan86/Menu-tracker" style={{ width: '30px', height: '30px' }} />
                                 </span>
-                                <p className='project-paragraph'>A SignUp and Login form built with React.js, MongoDB, and Tailwind CSS enables user authentication with a responsive, modern design. React handles form inputs, MongoDB stores user data, and Tailwind CSS ensures a sleek interface across devices.</p>
+                                <p className='project-paragraph'>
+                                    A Menu Forecast App built with React.js allows users to add menu items and calculates the required food quantity based on the number of people. Styled with CSS, it features a responsive design, making it easy to plan meals and portions for events on both mobile and desktop devices.</p>
                             </div>
                         </div>
                     </div>

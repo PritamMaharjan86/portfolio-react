@@ -159,7 +159,7 @@
   margin-top: 100px;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffca38;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -190,6 +190,10 @@
   border-radius: 0.8rem 0.8rem 0 0;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
+
+.project-wrap{
+  background-color: #ffca38;
 }
 
 .project-text {

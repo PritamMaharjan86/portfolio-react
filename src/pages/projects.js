@@ -115,7 +115,52 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+                <div className='projects-row'>
+                    <div className='project'>
+                        <div className='project-wrap'>
+                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727758751/Screenshot_2024-10-01_at_14.58.15_j6lfjy.png' alt="Project Screenshot"></img>
+                            <div className='project-text'>
+                                <span style={{ display: 'flex', alignItems: 'center' }}>
+                                    <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Currency Converter App</h3>
+                                    <SocialIcon url="https://github.com/PritamMaharjan86/currency_converter" style={{ width: '30px', height: '30px' }} />
+                                </span>
+                                <p className='project-paragraph'>The Currency Converter App is a fast and responsive application built with React.js and Vite, providing real-time currency exchange rates through API integration. With its clean design for both mobile and desktop, users can easily convert amounts between currencies and access the latest rates, making it an essential tool for travelers and businesses.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='project'>
+                        <div className='project-wrap'>
+                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727000462/Screenshot_2024-09-22_at_20.20.38_dldvpg.png' alt="Project Screenshot"></img>
+                            <div className='project-text'>
+                                <span style={{ display: 'flex', alignItems: 'center' }}>
+                                    <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Reminder App</h3>
+                                    <SocialIcon url="https://github.com/PritamMaharjan86/Reminder-App" style={{ width: '30px', height: '30px' }} />
+                                </span>
+                                <p className='project-paragraph'>
+                                    A Reminder App built with React.js helps users organize tasks and set reminders. Styled with CSS, it offers a simple, responsive interface, allowing users to manage tasks seamlessly on both mobile and desktop devices.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='project'>
+                        <div className='project-wrap'>
+                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727001047/Screenshot_2024-09-22_at_20.29.49_ev7hhp.png' alt="Project Screenshot"></img>
+                            <div className='project-text'>
+                                <span style={{ display: 'flex', alignItems: 'center' }}>
+                                    <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Menu Forecast</h3>
+                                    <SocialIcon url="https://github.com/PritamMaharjan86/Menu-tracker" style={{ width: '30px', height: '30px' }} />
+                                </span>
+                                <p className='project-paragraph'>
+                                    A Menu Forecast App built with React.js allows users to add menu items and calculates the required food quantity based on the number of people. Styled with CSS, it features a responsive design, making it easy to plan meals and portions for events on both mobile and desktop devices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+
 
             <footer class="footer">
                 <p> Developed by Pritam</p>

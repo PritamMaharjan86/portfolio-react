@@ -34,7 +34,8 @@ const Projects = () => {
                 <div className='projects-row'>
                     <div className='project'>
                         <div className='project-wrap'>
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1726650516/Screenshot_2024-09-15_at_09.27.17_uqnunk.png' alt="Project Screenshot"></img>
+                            <a href='https://signup-one-black.vercel.app/signup' target="_blank" rel="noopener noreferrer">
+                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1726650516/Screenshot_2024-09-15_at_09.27.17_uqnunk.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>SignUp and Login</h3>
@@ -46,8 +47,8 @@ const Projects = () => {
                     </div>
 
                     <div className='project'>
-                        <div className='project-wrap'>
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1726998940/Screenshot_2024-09-22_at_19.52.38_jyrtxx.png' alt="Project Screenshot"></img>
+                        <div className='project-wrap'>  <a href='https://calculator-app-gray-pi.vercel.app/' target="_blank" rel="noopener noreferrer">
+                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1726998940/Screenshot_2024-09-22_at_19.52.38_jyrtxx.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Calculator App</h3>
@@ -60,7 +61,8 @@ const Projects = () => {
 
                     <div className='project'>
                         <div className='project-wrap'>
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1726999577/Screenshot_2024-09-22_at_20.04.51_zcxqxa.png' alt="Project Screenshot"></img>
+                            <a href='https://portfolio-pritammaharjan.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1726999577/Screenshot_2024-09-22_at_20.04.51_zcxqxa.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Portfolio</h3>
@@ -76,7 +78,8 @@ const Projects = () => {
                 <div className='projects-row'>
                     <div className='project'>
                         <div className='project-wrap'>
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727000279/Screenshot_2024-09-22_at_20.17.05_uby09i.png' alt="Project Screenshot"></img>
+                            <a href='https://weather-app-three-fawn.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727000279/Screenshot_2024-09-22_at_20.17.05_uby09i.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Weather App</h3>
@@ -89,7 +92,8 @@ const Projects = () => {
 
                     <div className='project'>
                         <div className='project-wrap'>
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727000462/Screenshot_2024-09-22_at_20.20.38_dldvpg.png' alt="Project Screenshot"></img>
+                            <a href='https://reminder-app-832r.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727000462/Screenshot_2024-09-22_at_20.20.38_dldvpg.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Reminder App</h3>
@@ -103,7 +107,8 @@ const Projects = () => {
 
                     <div className='project'>
                         <div className='project-wrap'>
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727001047/Screenshot_2024-09-22_at_20.29.49_ev7hhp.png' alt="Project Screenshot"></img>
+                            <a href='https://catering-menu.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727001047/Screenshot_2024-09-22_at_20.29.49_ev7hhp.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Menu Forecast</h3>
@@ -118,7 +123,9 @@ const Projects = () => {
                 <div className='projects-row'>
                     <div className='project'>
                         <div className='project-wrap'>
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727758751/Screenshot_2024-10-01_at_14.58.15_j6lfjy.png' alt="Project Screenshot"></img>
+                            <a href='https://currency-converter-woad-pi.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727758751/Screenshot_2024-10-01_at_14.58.15_j6lfjy.png' alt="Project Screenshot" />
+                            </a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Currency Converter App</h3>

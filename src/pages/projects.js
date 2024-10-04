@@ -78,12 +78,12 @@ const Projects = () => {
                 <div className='projects-row'>
                     <div className='project'>
                         <div className='project-wrap'>
-                            <a href='https://weather-app-three-fawn.vercel.app/' target="_blank" rel="noopener noreferrer">
-                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1727000279/Screenshot_2024-09-22_at_20.17.05_uby09i.png' alt="Project Screenshot"></img></a>
+                            <a href='https://weather-app-delta-umber-38.vercel.app/' target="_blank" rel="noopener noreferrer">
+                                <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1728018358/Screenshot_2024-10-04_at_15.04.15_2_bd5bmg.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Weather App</h3>
-                                    <SocialIcon url="https://github.com/PritamMaharjan86/Weather-App" style={{ width: '30px', height: '30px' }} />
+                                    <SocialIcon url="https://github.com/PritamMaharjan86/WeatherApp" style={{ width: '30px', height: '30px' }} />
                                 </span>
                                 <p className='project-paragraph'>A Weather App built with React.js fetches real-time weather data using an API. Styled with CSS, it offers a clean, responsive design, displaying current conditions and forecasts for any location on both mobile and desktop devices.</p>
                             </div>

@@ -16,7 +16,7 @@ const Projects = () => {
                 await new Promise(resolve => setTimeout(resolve, 500));
 
             } catch (error) {
-                console.error('Error fetching data:', error);
+                console.error('Error', error);
             } finally {
                 setLoading(false);
             }

@@ -48,7 +48,7 @@ const Projects = () => {
 
                     <div className='project'>
                         <div className='project-wrap'>  <a href='https://calculator-app-gray-pi.vercel.app/' target="_blank" rel="noopener noreferrer">
-                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1726998940/Screenshot_2024-09-22_at_19.52.38_jyrtxx.png' alt="Project Screenshot"></img></a>
+                            <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/v1728294335/Screenshot_2024-10-07_at_20.44.30_2_znk6bf.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
                                     <h3 style={{ marginRight: '20px', color: '#5c27b2' }}>Calculator App</h3>

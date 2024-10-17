@@ -34,7 +34,7 @@ const Projects = () => {
                 <div className='projects-row'>
                     <div className='project'>
                         <div className='project-wrap'>
-                            <a href='https://signup-one-black.vercel.app/signup' target="_blank" rel="noopener noreferrer">
+                            <a href='https://signup-beryl-eta.vercel.app/login' target="_blank" rel="noopener noreferrer">
                                 <img className='project-img' src='https://res.cloudinary.com/dedpvue13/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1726650516/Screenshot_2024-09-15_at_09.27.17_uqnunk.png' alt="Project Screenshot"></img></a>
                             <div className='project-text'>
                                 <span style={{ display: 'flex', alignItems: 'center' }}>
